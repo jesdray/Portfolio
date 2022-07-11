@@ -1,8 +1,11 @@
 .header {
     display: flex;
+    justify-content: space-between;
     width: 90%;
     height: 100px;
     margin: auto;
+    border-top: 1px solid #696969;
     border-bottom: 1px solid #696969;
     border-radius: 10px;
+    margin-top: 20px;
 }
