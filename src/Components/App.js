@@ -1,9 +1,16 @@
 import React from "react";
+import { BrowserRouter, Redirect, Route, Switch } from 'react-router-dom';
 import Header from "./Header"
+import Footer from "./Footer"
+import Main from "./Main";
 
 function App() {
   return (
-    <Header />
+    <BrowserRouter>
+      <Header />
+      <Main />
+      <Footer />
+    </BrowserRouter>
   );
 }
 

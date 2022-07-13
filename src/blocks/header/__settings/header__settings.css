@@ -1,0 +1,10 @@
+.header__settings {
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    transition: transform 1.5s ease;
+}
+
+.header__settings:hover {
+    transform:rotate(180deg);
+}

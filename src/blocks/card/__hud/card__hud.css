@@ -1,0 +1,14 @@
+.card__hud {
+    background-color: #696969;
+    position: absolute;
+    z-index: 2;
+    color: #fff;
+    width: min-content;
+    height: min-content;
+    opacity: 0;
+    transition: opacity .4s ease;
+}
+
+.card__hud:hover {
+    opacity: 0.8;
+}
